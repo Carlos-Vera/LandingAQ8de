@@ -4,18 +4,18 @@
  * https://www.21tools.it
  *
  */
-
+ 
 /* Generic */
 body {position:relative;}
 .contactMe, .contactMe * {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 .contactMe * {outline:none !important;font-size:14px;color:#000;}
 .contactMe {width:auto;padding:0;margin:0 auto;background:#F1F1F1;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
 .contactMe.xsmall {max-width:300px;}
-.contactMe.small {max-width:600px;margin-top:25%;}
+.contactMe.small {max-width:600px;}
 .contactMe.medium {max-width:500px;}
 .contactMe > header {padding:30px 30px 20px 30px;}
 .contactMe > header > hr {display:none;}
-.contactMe > section {background:#FFF;padding:30px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;border: solid 1px #E4E4E4;text-align: center;}
+.contactMe > section {background:#FFF;padding:30px;margin-top:25%;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;border: solid 1px #E4E4E4;text-align: center;}
 
 /* Form fields */
 .contactMe .form-row {width:100%;margin-bottom:10px;}
@@ -271,13 +271,6 @@ body {position:relative;}
     transform:none;
   }
 }
-
-@media screen and (min-width: 765px){
-  .contactMe.small {margin-top:25%;}
-}
-@media screen and (min-width: 1025px){
-  .contactMe.small {margin-top:0%;}
-}
-@media screen and (min-width: 1365px){
-  .contactMe.small {margin-top:0%;}
+@media screen and (max-width: 765px){
+  .contactMe > section {border: none;}
 }
