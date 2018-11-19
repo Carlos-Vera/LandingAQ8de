@@ -11,7 +11,7 @@ header nav .ioMenuMovil{display:inline-block;height:50px;width:auto;cursor:point
 .website{display:none;}.movil{display:inline-block;text-align:center;width:100%;margin:3% auto 1% auto;}
 .faldon{display:inline-block;padding-top:.25rem;padding-bottom:.25rem;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap;}
 .link-faldon{color:#333;text-decoration:none;margin:0 auto;}
-a:focus, a:hover{color:#ca000c;text-decoration:none;}
+.link-faldon:focus, a:focus, a:hover{color:#ca000c;text-decoration:none;}
 .link-faldon-movil{color:#333;text-decoration:none;margin:0 3%;font-size:.8em;}
 .super{vertical-align:super;font-weight:400;font-size: small;top:-1.5em;margin-left:-2.5em;}
 .super1{top:-1em;font-size:40%;line-height:0;position:relative;vertical-align:baseline;}
@@ -75,6 +75,7 @@ p.negocio span, p.contactanos, a.telefono, #imagen > p:nth-child(2){display:bloc
 .mlr-5{margin-left:5%;margin-right:5%;}
 .neg-cur{font-weight:700;font-style:italic}
 .negrita{font-weight:700;}
+#text-equipo > p:nth-child(6){margin-top:2%;}
 .no-lr-pm{padding-left:0;padding-right:0;margin-left:0px;margin-right:0px;}
 div#equipo-aq8{display:block;width:100%;margin-top:15%;}
 div#equipo-aq8-wide{display:none;}
@@ -297,7 +298,7 @@ div#equipo-aq8{margin-top:7%;}
 div#negocio{margin-top:0;padding-top:5%;}
 #negocio > p.pnegocio{margin-top:-10%;}
 #negocio p.negocio span{font-size:3em;}
-#negocio figure img{max-width:720px;}
+#negocio figure img{max-width:720px;margin-top:2%;}
 div#aq8 p{padding-top:0%;font-size:3em;margin-top:-10%;}
 div#aq8{padding-top:40%;}
 .bodytec{margin:5% auto;}
@@ -394,7 +395,7 @@ body div:nth-child(5){margin-top:0;}
 body div:nth-child(5) div.saber{display:inline-block;}
 }
 @media screen and (min-width:1365px){
-.info-web{display:inline-block;position:inherit;text-align:center;width:230%;margin:0 0;right:-4%;}
+.info-web{display:inline-block;position:relative;text-align:center;width:100%;margin:0 auto;left:11%;}
 .link-faldon{margin: 0 2%;}
 #navbarNav div{left:30%;}
 body div:nth-child(4) div.saber{margin-bottom:4%;}
@@ -407,9 +408,10 @@ div#MR{margin-top:10%;}
 body div:nth-child(6) div.saber{display:none;}
 #negocio div{display:block;}
 div#equipo-aq8-wide{margin-top:0;}
+#video-contacto{width:70%;margin-left:15%;}
 }
 @media screen and (min-width:1440px){
-.info-web{left:7%;}
+.info-web{width:60%;left:12%;}
 #navbarNav div{left:37%;}
 body div:nth-child(5) div.saber{margin:2% auto;}
 body div:nth-child(5) div.saber a{width:13%;}
@@ -457,6 +459,6 @@ div#paises p.cuatro_dos{font-size:19em;}
 @keyframes fadeIn{0%{opacity:0;}
 100%{opacity:1;}
 }/* Boton subir */
-.boton-subir{display:none;background:#ff0000;border-radius:25px 25px 0 0;position:fixed;right:15px;bottom:-1px;z-index:999999999;}
+.boton-subir{display:none;background:#ff0000;border-radius:25px 25px 0 0;position:fixed;left:15px;bottom:-1px;z-index:999999999;}
 .boton-subir:hover{background:#a50000;box-shadow:0px 2px 10px 0px rgba(255, 255, 255, 0.75);padding-bottom:10px;transition-duration:1s}
 .boton-subir i{color:#fff;font-size:1.5em;padding:10px 15px 15px 15px;}
